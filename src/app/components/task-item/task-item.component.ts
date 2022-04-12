@@ -13,6 +13,10 @@ export class TaskItemComponent implements OnInit {
   faTimes = faTimes
   constructor() { }
 
+  onDelete(task:Task){
+    console.log(task)
+  }
+
   ngOnInit(): void {
   }
 
